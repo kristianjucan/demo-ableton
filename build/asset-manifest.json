@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8a0fd57.css",
+    "main.js": "/static/js/main.247a5da9.js",
+    "static/js/787.9a00c4f3.chunk.js": "/static/js/787.9a00c4f3.chunk.js",
+    "static/media/header.jpg": "/static/media/header.f36655b18f5770715f7a.jpg",
+    "static/media/photo-5.jpg": "/static/media/photo-5.180e0c43f152aff1f3db.jpg",
+    "static/media/jobsHeader.avif": "/static/media/jobsHeader.ac1559b0dbd80a6f8555.avif",
+    "static/media/apprentice1.jpg": "/static/media/apprentice1.b2b6d3f04163e6455af1.jpg",
+    "static/media/photo-4.jpg": "/static/media/photo-4.31ca6c61df8a06c5132c.jpg",
+    "static/media/apprentice2.jpg": "/static/media/apprentice2.d5e06e95512213dc4a21.jpg",
+    "static/media/photo-1.jpg": "/static/media/photo-1.a6e7b2233b2277164555.jpg",
+    "static/media/photo-3.jpg": "/static/media/photo-3.3b98f3dce19da541c56f.jpg",
+    "static/media/photo-2.jpg": "/static/media/photo-2.e35b20570e49d175f39e.jpg",
+    "static/media/instagram-icon.svg": "/static/media/instagram-icon.8ff7ce92ad753b591ed4c1d03e84c026.svg",
+    "static/media/yt-icon.svg": "/static/media/yt-icon.16c9d3d12857cf319c96d9257ab927ae.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.4ee2f871644eee0a28a2d257db078258.svg",
+    "index.html": "/index.html",
+    "static/media/black-logo.svg": "/static/media/black-logo.6b821fbf2398542224861805fa8cf5cb.svg",
+    "static/media/fb-icon.svg": "/static/media/fb-icon.1d60f030f88d365627c35afd0f0f9d38.svg",
+    "main.d8a0fd57.css.map": "/static/css/main.d8a0fd57.css.map",
+    "main.247a5da9.js.map": "/static/js/main.247a5da9.js.map",
+    "787.9a00c4f3.chunk.js.map": "/static/js/787.9a00c4f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a0fd57.css",
+    "static/js/main.247a5da9.js"
+  ]
+}
