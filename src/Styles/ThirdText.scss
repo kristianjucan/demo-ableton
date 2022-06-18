@@ -1,0 +1,35 @@
+@import 'mixins';
+
+.third-text {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: start;
+    height: 100%;
+    h2 {
+        @include heavy-font
+    }
+    p {
+        @include light-font
+    }
+}
+
+@media (max-width: 1120px) {
+    .third-text {
+        width: 70%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 500px) {
+    .third-text {
+        h2 {
+            font-size: medium;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+}
+

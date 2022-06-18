@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'mixins';
+
+.apprentice-body {
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+}
+
+.apprentice-intro {
+    @include text-align;
+    height: 100%;
+    margin: 0 auto;
+    @media(min-width: 1025px){
+    padding-right: 30%;
+    }
+    @media(max-width: 1025px){
+    width: 85%;
+    height: 95%;
+    }
+    @media(max-width: 950px){
+    height: 85%;
+    }
+    h1{
+        margin: 0px;
+        @include heavy-font;
+        @media(min-width: 1025px){
+            font-size: 3.75rem;
+        }
+    }
+    h2{
+        @include light-font;
+        @media(min-width: 1025px){
+            font-size: 1.75rem;
+        }
+    }
+    p{
+        @include light-font;
+        @media(min-width: 1025px){
+            font-size: 1.15rem;
+        }
+    }
+}
+
+.apprentice-description {
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+

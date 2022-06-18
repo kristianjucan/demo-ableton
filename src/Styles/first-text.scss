@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'mixins';
+
+.first-text {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: start;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        @include heavy-font
+    }
+    p {
+        @include light-font
+    }
+}
+
+@media (max-width: 1120px) {
+    .first-text {
+        width: 70%;
+    }
+}
+
+@media (max-width:500px) {
+    .first-text {
+        h1 {
+            font-size: medium;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+}

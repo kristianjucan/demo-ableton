@@ -1,0 +1,38 @@
+.third-text {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: start;
+  height: 100%;
+}
+
+.third-text h2 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.third-text p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media (max-width: 1120px) {
+  .third-text {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .third-text h2 {
+    font-size: medium;
+  }
+  .third-text p {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=ThirdText.css.map */

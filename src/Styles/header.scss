@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixins';
+
+.header {
+    width: 100%;
+    position: relative;
+    img {
+        width: 84%;
+        margin-top: 20px;
+    }
+
+    p {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: $logo-image;
+        @include heavy-font;
+        font-size: 100px;
+        margin: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .header p {
+        font-size: 50px;
+    }
+}
+
